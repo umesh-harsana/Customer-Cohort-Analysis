@@ -1,6 +1,7 @@
 # Customer Cohort Analysis
 
 ## Overview
+
 This project analyzes customer retention, repeat purchasing behavior, and revenue trends using Cohort Analysis. SQL was used for cohort creation and retention calculations, while Power BI was used to build an interactive dashboard for business insights.
 
 The project helps understand:
@@ -12,7 +13,18 @@ The project helps understand:
 
 ---
 
+## Objectives
+
+- Analyze customer retention patterns over time
+- Identify repeat purchasing behavior
+- Measure cohort-wise revenue contribution
+- Track customer engagement across lifecycle months
+- Generate business insights to improve customer retention
+
+---
+
 ## Tools & Technologies
+
 - Excel
 - MySQL
 - Power BI
@@ -20,7 +32,23 @@ The project helps understand:
 
 ---
 
-## Data Cleaning
+## Dataset Description
+
+The dataset contains online retail transaction data including:
+- Customer IDs
+- Invoice dates
+- Product purchases
+- Quantity
+- Unit price
+- Revenue
+- Country information
+
+---
+
+## Project Workflow
+
+### Data Cleaning
+
 The dataset was cleaned using Excel before analysis:
 - Removed null Customer IDs
 - Removed cancelled transactions
@@ -29,9 +57,8 @@ The dataset was cleaned using Excel before analysis:
 - Created Revenue column
 - Created OrderMonth column for monthly cohort analysis
 
----
+### SQL Analysis
 
-## SQL Analysis
 Performed the following analysis in MySQL:
 - Identified first purchase month of each customer
 - Created Cohort Month for customers
@@ -39,6 +66,19 @@ Performed the following analysis in MySQL:
 - Built customer retention table
 - Calculated retention percentages
 - Created detailed cohort transaction table for revenue analysis
+
+### 3. Power BI Dashboard Development
+
+Built a two-page interactive dashboard:
+- Retention Analysis
+- Revenue Insights
+
+Added:
+- KPI cards
+- Cohort heatmap
+- Trend analysis
+- Revenue analysis visuals
+- Customer behavior analysis
 
 ---
 
@@ -67,6 +107,7 @@ Performed the following analysis in MySQL:
 ---
 
 ## KPIs Used
+
 - Total Customers
 - Repeat Customers
 - Average Retention Rate
@@ -77,6 +118,7 @@ Performed the following analysis in MySQL:
 ---
 
 ## Key Insights
+
 - Customer retention decreases significantly after the first month
 - Only a portion of customers return for repeat purchases
 - Certain customer cohorts contribute higher long-term revenue
@@ -86,6 +128,7 @@ Performed the following analysis in MySQL:
 ---
 
 ## Business Recommendations
+
 - Improve customer retention through loyalty programs
 - Target first-time buyers with personalized campaigns
 - Increase repeat purchases using retention strategies
@@ -93,7 +136,14 @@ Performed the following analysis in MySQL:
 
 ---
 
+## Conclusion
+
+This project demonstrates how cohort analysis can be used to understand customer retention and purchasing behavior. By combining SQL-based cohort calculations with Power BI visualizations, the dashboard provides meaningful business insights into customer engagement, repeat purchases, and revenue contribution over time.
+
+---
+
 ## Author
+
 **Umesh Harsana**  
 - B.Tech, IIT(BHU) Varanasi
 - Aspiring Data Analyst
