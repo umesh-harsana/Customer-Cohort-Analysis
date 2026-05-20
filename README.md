@@ -1,4 +1,4 @@
-# Customer Cohort Analysis Dashboard
+# Customer Cohort Analysis
 
 ## Project Overview
 This project focuses on analyzing customer retention, repeat purchasing behavior, and revenue trends using Cohort Analysis. The analysis was performed using SQL for data transformation and Power BI for interactive dashboard visualization.
