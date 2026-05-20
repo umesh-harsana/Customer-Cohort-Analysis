@@ -7,7 +7,7 @@ The dashboard helps identify customer engagement patterns, retention performance
 
 ---
 
-# Objectives
+## Objectives
 - Analyze customer retention behavior over time
 - Identify repeat purchasing patterns
 - Measure cohort-wise customer performance
@@ -17,7 +17,7 @@ The dashboard helps identify customer engagement patterns, retention performance
 
 ---
 
-# Dataset Description
+## Dataset Description
 The dataset contains online retail transaction records including:
 - Customer IDs
 - Invoice Dates
@@ -31,7 +31,7 @@ The data spans multiple months, allowing cohort-based retention analysis and rep
 
 ---
 
-# Tools & Technologies Used
+## Tools & Technologies Used
 - **Excel** – Data cleaning and preprocessing
 - **MySQL** – Cohort analysis and SQL transformations
 - **Power BI** – Dashboard creation and visualization
@@ -39,7 +39,7 @@ The data spans multiple months, allowing cohort-based retention analysis and rep
 
 ---
 
-# Data Cleaning & Preprocessing
+## Data Cleaning & Preprocessing
 The dataset was cleaned in Excel before analysis:
 - Removed null Customer IDs
 - Removed cancelled transactions
@@ -51,12 +51,12 @@ The dataset was cleaned in Excel before analysis:
 
 ---
 
-# Project Workflow
+## Project Workflow
 
-## Step 1 – Data Cleaning
+### Step 1 – Data Cleaning
 Performed preprocessing and removed invalid records using Excel.
 
-## Step 2 – SQL Cohort Analysis
+### Step 2 – SQL Cohort Analysis
 Used MySQL to:
 - Identify customer first purchase month
 - Create Cohort Month
@@ -64,7 +64,7 @@ Used MySQL to:
 - Build retention tables
 - Calculate retention percentages
 
-## Step 3 – Power BI Dashboard Development
+### Step 3 – Power BI Dashboard Development
 Imported transformed tables into Power BI and created:
 - KPIs
 - Cohort heatmap
@@ -74,30 +74,30 @@ Imported transformed tables into Power BI and created:
 
 ---
 
-# SQL Analysis Performed
+## SQL Analysis Performed
 
-## 1. Cohort Month Identification
+### 1. Cohort Month Identification
 Identified the first purchase month of each customer.
 
-## 2. Cohort Index Calculation
+### 2. Cohort Index Calculation
 Calculated the number of months between first purchase and repeat purchases.
 
-## 3. Retention Analysis
+### 3. Retention Analysis
 Created customer retention tables to analyze repeat customer behavior across cohorts.
 
-## 4. Revenue Analysis
+### 4. Revenue Analysis
 Analyzed revenue trends and revenue contribution by customer cohorts.
 
 ---
 
-# Dashboard Pages
+## Dashboard Pages
 
-## 1. Retention Analysis
+### 1. Retention Analysis
 This page focuses on customer retention behavior and repeat purchasing trends.
 
 ![Revenue Dashboard](images/dashboard_retention.png)
 
-### Visuals Included
+#### Visuals Included
 - Customer Retention Heatmap
 - Retention Trend Analysis
 - Cohort-wise Customer Distribution
@@ -106,12 +106,12 @@ This page focuses on customer retention behavior and repeat purchasing trends.
 
 ---
 
-## 2. Revenue Insights
+### 2. Revenue Insights
 This page focuses on revenue contribution and customer value analysis.
 
 ![Retention Dashboard](images/dashboard_revenue.png)
 
-### Visuals Included
+#### Visuals Included
 - Revenue by Cohort
 - Monthly Revenue Trend
 - Revenue by Cohort Index
@@ -120,7 +120,7 @@ This page focuses on revenue contribution and customer value analysis.
 
 ---
 
-# KPIs Used
+## KPIs Used
 - Total Customers
 - Repeat Customers
 - Average Retention Rate
@@ -130,7 +130,7 @@ This page focuses on revenue contribution and customer value analysis.
 
 ---
 
-# Key Business Insights
+## Key Business Insights
 - Customer retention decreases significantly after the first purchase month
 - Only a portion of customers return for repeat purchases
 - Certain customer cohorts contribute higher long-term revenue
@@ -139,7 +139,7 @@ This page focuses on revenue contribution and customer value analysis.
 
 ---
 
-# Business Recommendations
+## Business Recommendations
 - Improve customer retention through loyalty programs
 - Target first-time buyers with personalized campaigns
 - Increase repeat purchases using retention-focused strategies
@@ -148,12 +148,12 @@ This page focuses on revenue contribution and customer value analysis.
 
 ---
 
-# Conclusion
+## Conclusion
 This project demonstrates how cohort analysis can be used to understand customer retention, repeat purchasing behavior, and revenue contribution patterns. By combining SQL-based cohort analysis with Power BI visualizations, the dashboard provides actionable business insights for improving customer engagement and long-term customer value.
 
 ---
 
-# Author
+## Author
 **Umesh Harsana**  
 B.Tech, IIT(BHU) Varanasi  
 Aspiring Data Analyst
